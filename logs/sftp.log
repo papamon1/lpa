@@ -1,0 +1,579 @@
+Oct 15 19:10:00 10.71.57.0 u94351524 Connection from 10.71.57.0 port 25608 on 82.165.84.48 port 22
+Oct 15 19:10:04 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 25608 ssh2
+Oct 15 19:10:04 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 25608
+Oct 15 19:10:04 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 15 19:10:47 10.71.57.0 u94351524 Connection from 10.71.57.0 port 21198 on 82.165.84.48 port 22
+Oct 15 19:10:48 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 21198 ssh2
+Oct 15 19:10:47 10.71.57.0 u94351524 Connection from 10.71.57.0 port 21188 on 82.165.84.48 port 22
+Oct 15 19:10:48 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 21188 ssh2
+Oct 15 19:10:48 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 21188
+Oct 15 19:10:48 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 21198
+Oct 15 19:10:48 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 15 19:10:48 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 15 19:10:48 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:10:49 10.71.57.0 u94351524 open "/LPA_Carta_A4 ES.pdf" flags WRITE,CREATE,TRUNCATE mode 0100755
+Oct 15 19:10:49 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:10:49 10.71.57.0 u94351524 open "/LPA_Carta_A4 EN.pdf" flags WRITE,CREATE,TRUNCATE mode 0100755
+Oct 15 19:10:49 10.71.57.0 u94351524 close "/LPA_Carta_A4 EN.pdf" bytes read 0 written 189575
+Oct 15 19:10:49 10.71.57.0 u94351524 [10.71.57.0|put|0|189575|0|0|0|2f4c50415f43617274615f413420454e2e706466|]
+Oct 15 19:10:50 10.71.57.0 u94351524 close "/LPA_Carta_A4 ES.pdf" bytes read 0 written 188870
+Oct 15 19:10:50 10.71.57.0 u94351524 [10.71.57.0|put|2|188870|0|0|0|2f4c50415f43617274615f41342045532e706466|]
+Oct 15 19:11:01 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:11:01 10.71.57.0 u94351524 rename old "/carta_en.pdf" new "/carta_en_bak.pdf"
+Oct 15 19:11:01 10.71.57.0 u94351524 [10.71.57.0|rename|0|0|0|0|0|2f63617274615f656e2e706466|2f63617274615f656e5f62616b2e706466]
+Oct 15 19:11:09 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:11:09 10.71.57.0 u94351524 rename old "/carta_es.pdf" new "/carta_es_bak.pdf"
+Oct 15 19:11:09 10.71.57.0 u94351524 [10.71.57.0|rename|0|0|0|0|0|2f63617274615f65732e706466|2f63617274615f65735f62616b2e706466]
+Oct 15 19:11:28 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:11:28 10.71.57.0 u94351524 rename old "/LPA_Carta_A4 ES.pdf" new "/carta_en.pdf"
+Oct 15 19:11:28 10.71.57.0 u94351524 [10.71.57.0|rename|0|0|0|0|0|2f4c50415f43617274615f41342045532e706466|2f63617274615f656e2e706466]
+Oct 15 19:11:40 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:11:40 10.71.57.0 u94351524 rename old "/carta_en.pdf" new "/carta_es.pdf"
+Oct 15 19:11:40 10.71.57.0 u94351524 [10.71.57.0|rename|0|0|0|0|0|2f63617274615f656e2e706466|2f63617274615f65732e706466]
+Oct 15 19:11:49 10.71.57.0 u94351524 Connection closed by 10.71.57.0
+Oct 15 19:11:49 10.71.57.0 u94351524 session closed for local user u94351524 from [10.71.57.0]
+Oct 15 19:11:50 10.71.57.0 u94351524 Connection closed by 10.71.57.0
+Oct 15 19:11:50 10.71.57.0 u94351524 session closed for local user u94351524 from [10.71.57.0]
+Oct 15 19:12:23 10.71.57.0 u94351524 sent status No such file
+Oct 15 19:12:24 10.71.57.0 u94351524 rename old "/LPA_Carta_A4 EN.pdf" new "/carta_en.pdf"
+Oct 15 19:12:24 10.71.57.0 u94351524 [10.71.57.0|rename|0|0|0|0|0|2f4c50415f43617274615f413420454e2e706466|2f63617274615f656e2e706466]
+Oct 17 16:43:56 10.71.57.0 u94351524 Connection from 10.71.57.0 port 35240 on 82.165.84.48 port 22
+Oct 17 16:43:58 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 35240 ssh2
+Oct 17 16:43:58 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 35240
+Oct 17 16:43:58 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 17 16:44:20 10.71.57.0 u94351524 Connection from 10.71.57.0 port 61748 on 82.165.84.48 port 22
+Oct 17 16:44:21 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 61748 ssh2
+Oct 17 16:44:20 10.71.57.0 u94351524 Connection from 10.71.57.0 port 61744 on 82.165.84.48 port 22
+Oct 17 16:44:21 10.71.57.0 u94351524 Accepted password for u94351524 from 10.71.57.0 port 61744 ssh2
+Oct 17 16:44:21 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 61744
+Oct 17 16:44:21 10.71.57.0 u94351524 Starting session: subsystem 'sftp' for u94351524 from 10.71.57.0 port 61748
+Oct 17 16:44:21 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 17 16:44:21 10.71.57.0 u94351524 session opened for local user u94351524 from [10.71.57.0]
+Oct 17 16:44:21 10.71.57.0 u94351524 open "/carta_en.pdf" flags READ mode 0666
+Oct 17 16:44:21 10.71.57.0 u94351524 open "/carnes.php" flags READ mode 0666
+Oct 17 16:44:21 10.71.57.0 u94351524 close "/carnes.php" bytes read 3507 written 0
+Oct 17 16:44:21 10.71.57.0 u94351524 [10.71.57.0|get|0|3507|0|0|0|2f6361726e65732e706870|]
+Oct 17 16:44:21 10.71.57.0 u94351524 close "/carta_en.pdf" bytes read 189575 written 0
+Oct 17 16:44:21 10.71.57.0 u94351524 [10.71.57.0|get|0|189575|0|0|0|2f63617274615f656e2e706466|]
+Oct 17 16:44:21 10.71.57.0 u94351524 open "/carta_en_bak.pdf" flags READ mode 0666
+Oct 17 16:44:21 10.71.57.0 u94351524 open "/carta_es.pdf" flags READ mode 0666
+Oct 17 16:44:21 10.71.57.0 u94351524 close "/carta_en_bak.pdf" bytes read 101402 written 0
+Oct 17 16:44:21 10.71.57.0 u94351524 [10.71.57.0|get|0|101402|0|0|0|2f63617274615f656e5f62616b2e706466|]
+Oct 17 16:44:21 10.71.57.0 u94351524 close "/carta_es.pdf" bytes read 188870 written 0
+Oct 17 16:44:21 10.71.57.0 u94351524 [10.71.57.0|get|0|188870|0|0|0|2f63617274615f65732e706466|]
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/carta_es_bak.pdf" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/common.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/carta_es_bak.pdf" bytes read 101688 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|101688|0|0|0|2f63617274615f65735f62616b2e706466|]
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/common.php" bytes read 796 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|796|0|0|0|2f636f6d6d6f6e2e706870|]
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/contacto.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/entrantes.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/contacto.php" bytes read 2173 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|2173|0|0|0|2f636f6e746163746f2e706870|]
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/entrantes.php" bytes read 5956 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|5956|0|0|0|2f656e7472616e7465732e706870|]
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/favicon.ico" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/footer.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/favicon.ico" bytes read 318 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|318|0|0|0|2f66617669636f6e2e69636f|]
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/footer.php" bytes read 827 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|827|0|0|0|2f666f6f7465722e706870|]
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/hamburguesas.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 open "/header.php" flags READ mode 0666
+Oct 17 16:44:22 10.71.57.0 u94351524 close "/hamburguesas.php" bytes read 6482 written 0
+Oct 17 16:44:22 10.71.57.0 u94351524 [10.71.57.0|get|0|6482|0|0|0|2f68616d6275726775657361732e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/header.php" bytes read 2324 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|1|2324|0|0|0|2f6865616465722e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/index.php" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/menu_superior.php" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/index.php" bytes read 6168 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|6168|0|0|0|2f696e6465782e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/menu_superior.php" bytes read 1733 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|1733|0|0|0|2f6d656e755f7375706572696f722e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/menu_superior_bak.php" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/postres.php" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/menu_superior_bak.php" bytes read 1701 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|1701|0|0|0|2f6d656e755f7375706572696f725f62616b2e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/postres.php" bytes read 3466 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|3466|0|0|0|2f706f73747265732e706870|]
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background3.jpg" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 open "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background2.jpg" flags READ mode 0666
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background3.jpg" bytes read 70116 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|70116|0|0|0|2f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f69645f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f66696c65732f6261636b67726f756e64332e6a7067|]
+Oct 17 16:44:23 10.71.57.0 u94351524 close "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background2.jpg" bytes read 15682 written 0
+Oct 17 16:44:23 10.71.57.0 u94351524 [10.71.57.0|get|0|15682|0|0|0|2f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f69645f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f66696c65732f6261636b67726f756e64322e6a7067|]
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background1.jpg" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/9f856838-c166-11e8-b59b-0cc47a792c0a_id_9f856838-c166-11e8-b59b-0cc47a792c0a_files/background1.jpg" bytes read 69298 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/LPA/package.json" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|69298|0|0|0|2f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f69645f39663835363833382d633136362d313165382d623539622d3063633437613739326330615f66696c65732f6261636b67726f756e64312e6a7067|]
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/LPA/package.json" bytes read 187 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|187|0|0|0|2f4c50412f7061636b6167652e6a736f6e|]
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/LPA/Gruntfile.js" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/LPA/gulpfile.js" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/LPA/Gruntfile.js" bytes read 286 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|286|0|0|0|2f4c50412f4772756e7466696c652e6a73|]
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/LPA/gulpfile.js" bytes read 300 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|300|0|0|0|2f4c50412f67756c7066696c652e6a73|]
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/LPA/bower.json" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 open "/LPA/public_html/index.html" flags READ mode 0666
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/LPA/bower.json" bytes read 194 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|194|0|0|0|2f4c50412f626f7765722e6a736f6e|]
+Oct 17 16:44:24 10.71.57.0 u94351524 close "/LPA/public_html/index.html" bytes read 446 written 0
+Oct 17 16:44:24 10.71.57.0 u94351524 [10.71.57.0|get|0|446|0|0|0|2f4c50412f7075626c69635f68746d6c2f696e6465782e68746d6c|]
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/booking.php" flags READ mode 0666
+Oct 17 16:44:25 10.71.57.0 u94351524 close "/booking/booking.php" bytes read 750 written 0
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/css/booking.css" flags READ mode 0666
+Oct 17 16:44:25 10.71.57.0 u94351524 [10.71.57.0|get|0|750|0|0|0|2f626f6f6b696e672f626f6f6b696e672e706870|]
+Oct 17 16:44:25 10.71.57.0 u94351524 close "/booking/css/booking.css" bytes read 9584 written 0
+Oct 17 16:44:25 10.71.57.0 u94351524 [10.71.57.0|get|0|9584|0|0|0|2f626f6f6b696e672f6373732f626f6f6b696e672e637373|]
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/font/icomoon.woff" flags READ mode 0666
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/font/icomoon.svg" flags READ mode 0666
+Oct 17 16:44:25 10.71.57.0 u94351524 close "/booking/font/icomoon.woff" bytes read 69028 written 0
+Oct 17 16:44:25 10.71.57.0 u94351524 [10.71.57.0|get|0|69028|0|0|0|2f626f6f6b696e672f666f6e742f69636f6d6f6f6e2e776f6666|]
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/font/icomoon.eot" flags READ mode 0666
+Oct 17 16:44:25 10.71.57.0 u94351524 close "/booking/font/icomoon.svg" bytes read 229668 written 0
+Oct 17 16:44:25 10.71.57.0 u94351524 [10.71.57.0|get|0|229668|0|0|0|2f626f6f6b696e672f666f6e742f69636f6d6f6f6e2e737667|]
+Oct 17 16:44:25 10.71.57.0 u94351524 close "/booking/font/icomoon.eot" bytes read 45016 written 0
+Oct 17 16:44:25 10.71.57.0 u94351524 [10.71.57.0|get|0|45016|0|0|0|2f626f6f6b696e672f666f6e742f69636f6d6f6f6e2e656f74|]
+Oct 17 16:44:25 10.71.57.0 u94351524 open "/booking/font/icomoon.dev.svg" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/font/FontAwesome.otf" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/icomoon.dev.svg" bytes read 241704 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|1|241704|0|0|0|2f626f6f6b696e672f666f6e742f69636f6d6f6f6e2e6465762e737667|]
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/FontAwesome.otf" bytes read 61896 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|0|61896|0|0|0|2f626f6f6b696e672f666f6e742f466f6e74417765736f6d652e6f7466|]
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/font/fontawesome-webfont.woff" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/font/fontawesome-webfont.svg" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/fontawesome-webfont.woff" bytes read 43572 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|0|43572|0|0|0|2f626f6f6b696e672f666f6e742f666f6e74617765736f6d652d776562666f6e742e776f6666|]
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/font/fontawesome-webfont.eot" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/fontawesome-webfont.eot" bytes read 37405 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|0|37405|0|0|0|2f626f6f6b696e672f666f6e742f666f6e74617765736f6d652d776562666f6e742e656f74|]
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/fontawesome-webfont.svg" bytes read 197829 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|0|197829|0|0|0|2f626f6f6b696e672f666f6e742f666f6e74617765736f6d652d776562666f6e742e737667|]
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/font/font-awesome.css" flags READ mode 0666
+Oct 17 16:44:26 10.71.57.0 u94351524 close "/booking/font/font-awesome.css" bytes read 27232 written 0
+Oct 17 16:44:26 10.71.57.0 u94351524 [10.71.57.0|get|0|27232|0|0|0|2f626f6f6b696e672f666f6e742f666f6e742d617765736f6d652e637373|]
+Oct 17 16:44:26 10.71.57.0 u94351524 open "/booking/js/regula.js" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/js/regula.js" bytes read 25774 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|1|25774|0|0|0|2f626f6f6b696e672f6a732f726567756c612e6a73|]
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/js/jquery.placeholder.js" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/js/jquery.fancyform.js" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/js/jquery.placeholder.js" bytes read 5291 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|0|5291|0|0|0|2f626f6f6b696e672f6a732f6a71756572792e706c616365686f6c6465722e6a73|]
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/js/jquery.fancyform.js" bytes read 41412 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|0|41412|0|0|0|2f626f6f6b696e672f6a732f6a71756572792e66616e6379666f726d2e6a73|]
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/js/jquery-ui-1.10.3.custom.min.js" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/js/booking.js" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/js/jquery-ui-1.10.3.custom.min.js" bytes read 40017 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|0|40017|0|0|0|2f626f6f6b696e672f6a732f6a71756572792d75692d312e31302e332e637573746f6d2e6d696e2e6a73|]
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/js/booking.js" bytes read 11784 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|0|11784|0|0|0|2f626f6f6b696e672f6a732f626f6f6b696e672e6a73|]
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/less/mixins.less" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 open "/booking/less/booking.less" flags READ mode 0666
+Oct 17 16:44:27 10.71.57.0 u94351524 close "/booking/less/mixins.less" bytes read 21877 written 0
+Oct 17 16:44:27 10.71.57.0 u94351524 [10.71.57.0|get|0|21877|0|0|0|2f626f6f6b696e672f6c6573732f6d6978696e732e6c657373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/booking/less/booking.less" bytes read 4788 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|4788|0|0|0|2f626f6f6b696e672f6c6573732f626f6f6b696e672e6c657373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/superfish.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/css/superfish.css" bytes read 3520 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|3520|0|0|0|2f6373732f7375706572666973682e637373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/touchTouch.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/style.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/css/touchTouch.css" bytes read 2380 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|2380|0|0|0|2f6373732f746f756368546f7563682e637373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/css/style.css" bytes read 15814 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|15814|0|0|0|2f6373732f7374796c652e637373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/stuck.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/ie.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/css/stuck.css" bytes read 910 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|910|0|0|0|2f6373732f737475636b2e637373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 close "/css/ie.css" bytes read 359 written 0
+Oct 17 16:44:28 10.71.57.0 u94351524 [10.71.57.0|get|0|359|0|0|0|2f6373732f69652e637373|]
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/grid.css" flags READ mode 0666
+Oct 17 16:44:28 10.71.57.0 u94351524 open "/css/form.css" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/css/grid.css" bytes read 5966 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|1|5966|0|0|0|2f6373732f677269642e637373|]
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/css/form.css" bytes read 7792 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|1|7792|0|0|0|2f6373732f666f726d2e637373|]
+Oct 17 16:44:29 10.71.57.0 u94351524 open "/css/font-awesome.css" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/css/font-awesome.css" bytes read 21628 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|0|21628|0|0|0|2f6373732f666f6e742d617765736f6d652e637373|]
+Oct 17 16:44:29 10.71.57.0 u94351524 open "/fonts/FontAwesome.otf" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/fonts/FontAwesome.otf" bytes read 62856 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|0|62856|0|0|0|2f666f6e74732f466f6e74417765736f6d652e6f7466|]
+Oct 17 16:44:29 10.71.57.0 u94351524 open "/fonts/fontawesome-webfont.woff" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 open "/fonts/fontawesome-webfont.svg" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/fonts/fontawesome-webfont.woff" bytes read 44432 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|0|44432|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f6666|]
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/fonts/fontawesome-webfont.svg" bytes read 202148 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|0|202148|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e737667|]
+Oct 17 16:44:29 10.71.57.0 u94351524 open "/fonts/fontawesome-webfont.eot" flags READ mode 0666
+Oct 17 16:44:29 10.71.57.0 u94351524 close "/fonts/fontawesome-webfont.eot" bytes read 38205 written 0
+Oct 17 16:44:29 10.71.57.0 u94351524 [10.71.57.0|get|0|38205|0|0|0|2f666f6e74732f666f6e74617765736f6d652d776562666f6e742e656f74|]
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/favicon.ico" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/favicon.ico" bytes read 318 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|318|0|0|0|2f696d616765732f66617669636f6e2e69636f|]
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/totop.png" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/quotes.png" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/totop.png" bytes read 3335 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|3335|0|0|0|2f696d616765732f746f746f702e706e67|]
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/quotes.png" bytes read 1374 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|1374|0|0|0|2f696d616765732f71756f7465732e706e67|]
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/Preloader_4.gif" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/preloader.gif" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/Preloader_4.gif" bytes read 17122 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|17122|0|0|0|2f696d616765732f5072656c6f616465725f342e676966|]
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/preloader.gif" bytes read 2608 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|2608|0|0|0|2f696d616765732f7072656c6f616465722e676966|]
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/page4_img6.jpg" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 sent status No such file
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/page4_img5.jpg" flags READ mode 0666
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/page4_img6.jpg" bytes read 19990 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|19990|0|0|0|2f696d616765732f70616765345f696d67362e6a7067|]
+Oct 17 16:44:30 10.71.57.0 u94351524 close "/images/page4_img5.jpg" bytes read 18160 written 0
+Oct 17 16:44:30 10.71.57.0 u94351524 [10.71.57.0|get|0|18160|0|0|0|2f696d616765732f70616765345f696d67352e6a7067|]
+Oct 17 16:44:30 10.71.57.0 u94351524 open "/images/page4_img4.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page4_img3.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page4_img4.jpg" bytes read 14665 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|1|14665|0|0|0|2f696d616765732f70616765345f696d67342e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page4_img3.jpg" bytes read 100013 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|100013|0|0|0|2f696d616765732f70616765345f696d67332e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page4_img2.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page4_img1.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page4_img2.jpg" bytes read 95077 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|95077|0|0|0|2f696d616765732f70616765345f696d67322e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page4_img1.jpg" bytes read 76215 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|76215|0|0|0|2f696d616765732f70616765345f696d67312e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page3_img1.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page2_img9.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page3_img1.jpg" bytes read 53979 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|53979|0|0|0|2f696d616765732f70616765335f696d67312e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page2_img9.jpg" bytes read 42482 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|42482|0|0|0|2f696d616765732f70616765325f696d67392e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page2_img8.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 open "/images/page2_img7.jpg" flags READ mode 0666
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page2_img8.jpg" bytes read 55320 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|55320|0|0|0|2f696d616765732f70616765325f696d67382e6a7067|]
+Oct 17 16:44:31 10.71.57.0 u94351524 close "/images/page2_img7.jpg" bytes read 56733 written 0
+Oct 17 16:44:31 10.71.57.0 u94351524 [10.71.57.0|get|0|56733|0|0|0|2f696d616765732f70616765325f696d67372e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img6.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img5.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img6.jpg" bytes read 84181 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|84181|0|0|0|2f696d616765732f70616765325f696d67362e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img5.jpg" bytes read 74570 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|74570|0|0|0|2f696d616765732f70616765325f696d67352e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img4.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img3.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img4.jpg" bytes read 57928 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|57928|0|0|0|2f696d616765732f70616765325f696d67342e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img3.jpg" bytes read 59760 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|59760|0|0|0|2f696d616765732f70616765325f696d67332e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img2.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page2_img1.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img2.jpg" bytes read 66073 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|66073|0|0|0|2f696d616765732f70616765325f696d67322e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page2_img1.jpg" bytes read 54047 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|54047|0|0|0|2f696d616765732f70616765325f696d67312e6a7067|]
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page1_img7.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 open "/images/page1_img6.jpg" flags READ mode 0666
+Oct 17 16:44:32 10.71.57.0 u94351524 close "/images/page1_img7.jpg" bytes read 7304 written 0
+Oct 17 16:44:32 10.71.57.0 u94351524 [10.71.57.0|get|0|7304|0|0|0|2f696d616765732f70616765315f696d67372e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img6.jpg" bytes read 47615 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|1|47615|0|0|0|2f696d616765732f70616765315f696d67362e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/page1_img5.jpg" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/page1_img4.jpg" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img5.jpg" bytes read 44770 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|44770|0|0|0|2f696d616765732f70616765315f696d67352e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img4.jpg" bytes read 44734 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|44734|0|0|0|2f696d616765732f70616765315f696d67342e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/page1_img3.jpg" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/page1_img2.jpg" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img3.jpg" bytes read 57417 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|57417|0|0|0|2f696d616765732f70616765315f696d67332e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img2.jpg" bytes read 32849 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|32849|0|0|0|2f696d616765732f70616765315f696d67322e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/page1_img1.jpg" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/marker.png" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/page1_img1.jpg" bytes read 50096 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|50096|0|0|0|2f696d616765732f70616765315f696d67312e6a7067|]
+Oct 17 16:44:33 10.71.57.0 u94351524 close "/images/marker.png" bytes read 1106 written 0
+Oct 17 16:44:33 10.71.57.0 u94351524 [10.71.57.0|get|0|1106|0|0|0|2f696d616765732f6d61726b65722e706e67|]
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/magnify.png" flags READ mode 0666
+Oct 17 16:44:33 10.71.57.0 u94351524 open "/images/Logo1.svg" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/magnify.png" bytes read 1794 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|1|1794|0|0|0|2f696d616765732f6d61676e6966792e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/Logo1.svg" bytes read 13945 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|1|13945|0|0|0|2f696d616765732f4c6f676f312e737667|]
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/Logo1.png" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/logo.png" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/logo.png" bytes read 3015 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|3015|0|0|0|2f696d616765732f6c6f676f2e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/Logo1.png" bytes read 10035 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|10035|0|0|0|2f696d616765732f4c6f676f312e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/icon4.png" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/icon3.png" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/icon4.png" bytes read 17217 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|17217|0|0|0|2f696d616765732f69636f6e342e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/icon3.png" bytes read 16574 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|16574|0|0|0|2f696d616765732f69636f6e332e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/icon2.png" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/icon1.png_bak" flags READ mode 0666
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/icon2.png" bytes read 16386 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|16386|0|0|0|2f696d616765732f69636f6e322e706e67|]
+Oct 17 16:44:34 10.71.57.0 u94351524 close "/images/icon1.png_bak" bytes read 2171 written 0
+Oct 17 16:44:34 10.71.57.0 u94351524 [10.71.57.0|get|0|2171|0|0|0|2f696d616765732f69636f6e312e706e675f62616b|]
+Oct 17 16:44:34 10.71.57.0 u94351524 open "/images/icon1.png" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/big3.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/icon1.png" bytes read 16288 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|1|16288|0|0|0|2f696d616765732f69636f6e312e706e67|]
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/big3.jpg" bytes read 283331 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|283331|0|0|0|2f696d616765732f626967332e6a7067|]
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/big2.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/big1.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/big2.jpg" bytes read 273217 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|273217|0|0|0|2f696d616765732f626967322e6a7067|]
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/big1.jpg" bytes read 77354 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|77354|0|0|0|2f696d616765732f626967312e6a7067|]
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/bbig9.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/bbig8.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/bbig9.jpg" bytes read 258522 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|258522|0|0|0|2f696d616765732f62626967392e6a7067|]
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/bbig8.jpg" bytes read 328268 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|328268|0|0|0|2f696d616765732f62626967382e6a7067|]
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/bbig7.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 open "/images/bbig6.jpg" flags READ mode 0666
+Oct 17 16:44:35 10.71.57.0 u94351524 close "/images/bbig7.jpg" bytes read 309308 written 0
+Oct 17 16:44:35 10.71.57.0 u94351524 [10.71.57.0|get|0|309308|0|0|0|2f696d616765732f62626967372e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/bbig5.jpg" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bbig6.jpg" bytes read 375944 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|1|375944|0|0|0|2f696d616765732f62626967362e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bbig5.jpg" bytes read 385410 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|385410|0|0|0|2f696d616765732f62626967352e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/bbig4.jpg" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/bbig3.jpg" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bbig4.jpg" bytes read 318683 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|318683|0|0|0|2f696d616765732f62626967342e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/bbig1.jpg" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bbig3.jpg" bytes read 284461 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|284461|0|0|0|2f696d616765732f62626967332e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bbig1.jpg" bytes read 96139 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|96139|0|0|0|2f696d616765732f62626967312e6a7067|]
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/bann_sep.png" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 open "/images/arrowws.png" flags READ mode 0666
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/bann_sep.png" bytes read 1082 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|1082|0|0|0|2f696d616765732f62616e6e5f7365702e706e67|]
+Oct 17 16:44:36 10.71.57.0 u94351524 close "/images/arrowws.png" bytes read 1756 written 0
+Oct 17 16:44:36 10.71.57.0 u94351524 [10.71.57.0|get|0|1756|0|0|0|2f696d616765732f6172726f7777732e706e67|]
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/solomillo_trufado.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/pollo_parrilla.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/solomillo_trufado.jpg" bytes read 216097 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|216097|0|0|0|2f696d616765732f6361726e65732f736f6c6f6d696c6c6f5f7472756661646f2e6a7067|]
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/picanha.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/pollo_parrilla.jpg" bytes read 259538 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|259538|0|0|0|2f696d616765732f6361726e65732f706f6c6c6f5f70617272696c6c612e6a7067|]
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/picanha.jpg" bytes read 240066 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|240066|0|0|0|2f696d616765732f6361726e65732f706963616e68612e6a7067|]
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/parrilla_para_dos.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/lomo_alto.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/parrilla_para_dos.jpg" bytes read 297207 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|297207|0|0|0|2f696d616765732f6361726e65732f70617272696c6c615f706172615f646f732e6a7067|]
+Oct 17 16:44:37 10.71.57.0 u94351524 open "/images/carnes/entrana.jpg" flags READ mode 0666
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/lomo_alto.jpg" bytes read 261203 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|261203|0|0|0|2f696d616765732f6361726e65732f6c6f6d6f5f616c746f2e6a7067|]
+Oct 17 16:44:37 10.71.57.0 u94351524 close "/images/carnes/entrana.jpg" bytes read 257371 written 0
+Oct 17 16:44:37 10.71.57.0 u94351524 [10.71.57.0|get|0|257371|0|0|0|2f696d616765732f6361726e65732f656e7472616e612e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/torrenachos.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/tiritas.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/torrenachos.jpg" bytes read 187447 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|187447|0|0|0|2f696d616765732f656e7472616e7465732f746f7272656e6163686f732e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/tequenos_thumb.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/tiritas.jpg" bytes read 207331 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|207331|0|0|0|2f696d616765732f656e7472616e7465732f746972697461732e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/tequenos_thumb.jpg" bytes read 162800 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|162800|0|0|0|2f696d616765732f656e7472616e7465732f74657175656e6f735f7468756d622e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/tequenos.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/provoleta_thumb.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/tequenos.jpg" bytes read 176995 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|176995|0|0|0|2f696d616765732f656e7472616e7465732f74657175656e6f732e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/provoleta.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/provoleta_thumb.jpg" bytes read 270971 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|270971|0|0|0|2f696d616765732f656e7472616e7465732f70726f766f6c6574615f7468756d622e6a7067|]
+Oct 17 16:44:38 10.71.57.0 u94351524 open "/images/entrantes/japonesas.jpg" flags READ mode 0666
+Oct 17 16:44:38 10.71.57.0 u94351524 close "/images/entrantes/provoleta.jpg" bytes read 227374 written 0
+Oct 17 16:44:38 10.71.57.0 u94351524 [10.71.57.0|get|0|227374|0|0|0|2f696d616765732f656e7472616e7465732f70726f766f6c6574612e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 open "/images/entrantes/hummus.jpg" flags READ mode 0666
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/japonesas.jpg" bytes read 171823 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|1|171823|0|0|0|2f696d616765732f656e7472616e7465732f6a61706f6e657361732e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 open "/images/entrantes/ens_rucula.jpg" flags READ mode 0666
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/hummus.jpg" bytes read 298854 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|0|298854|0|0|0|2f696d616765732f656e7472616e7465732f68756d6d75732e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 open "/images/entrantes/ens_espinacas.jpg" flags READ mode 0666
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/ens_rucula.jpg" bytes read 186534 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|0|186534|0|0|0|2f696d616765732f656e7472616e7465732f656e735f727563756c612e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/ens_espinacas.jpg" bytes read 206637 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|0|206637|0|0|0|2f696d616765732f656e7472616e7465732f656e735f657370696e616361732e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 open "/images/entrantes/chorizo_thumb.jpg" flags READ mode 0666
+Oct 17 16:44:39 10.71.57.0 u94351524 open "/images/entrantes/chorizo.jpg" flags READ mode 0666
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/chorizo.jpg" bytes read 244617 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 close "/images/entrantes/chorizo_thumb.jpg" bytes read 298174 written 0
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|0|244617|0|0|0|2f696d616765732f656e7472616e7465732f63686f72697a6f2e6a7067|]
+Oct 17 16:44:39 10.71.57.0 u94351524 [10.71.57.0|get|0|298174|0|0|0|2f696d616765732f656e7472616e7465732f63686f72697a6f5f7468756d622e6a7067|]
+Oct 17 16:44:40 10.71.57.0 u94351524 open "/images/entrantes/carpaccio_thumb.jpg" flags READ mode 0666
+Oct 17 16:44:40 10.71.57.0 u94351524 open "/images/entrantes/carpaccio_2.jpg" flags READ mode 0666
+Oct 17 16:44:40 10.71.57.0 u94351524 close "/images/entrantes/carpaccio_2.jpg" bytes read 214311 written 0
+Oct 17 16:44:40 10.71.57.0 u94351524 [10.71.57.0|get|0|214311|0|0|0|2f696d616765732f656e7472616e7465732f63617270616363696f5f322e6a7067|]
+Oct 17 16:44:40 10.71.57.0 u94351524 open "/images/entrantes/carpaccio_1.jpg" flags READ mode 0666
+Oct 17 16:44:40 10.71.57.0 u94351524 close "/images/entrantes/carpaccio_thumb.jpg" bytes read 343915 written 0
+Oct 17 16:44:40 10.71.57.0 u94351524 [10.71.57.0|get|0|343915|0|0|0|2f696d616765732f656e7472616e7465732f63617270616363696f5f7468756d622e6a7067|]
+Oct 17 16:44:40 10.71.57.0 u94351524 open "/images/entrantes/camembert_thumb.jpg" flags READ mode 0666
+Oct 17 16:44:40 10.71.57.0 u94351524 close "/images/entrantes/carpaccio_1.jpg" bytes read 287661 written 0
+Oct 17 16:44:40 10.71.57.0 u94351524 [10.71.57.0|get|0|287661|0|0|0|2f696d616765732f656e7472616e7465732f63617270616363696f5f312e6a7067|]
+Oct 17 16:44:40 10.71.57.0 u94351524 open "/images/entrantes/camembert.jpg" flags READ mode 0666
+Oct 17 16:44:40 10.71.57.0 u94351524 close "/images/entrantes/camembert_thumb.jpg" bytes read 320467 written 0
+Oct 17 16:44:40 10.71.57.0 u94351524 [10.71.57.0|get|0|320467|0|0|0|2f696d616765732f656e7472616e7465732f63616d656d626572745f7468756d622e6a7067|]
+Oct 17 16:44:40 10.71.57.0 u94351524 close "/images/entrantes/camembert.jpg" bytes read 275790 written 0
+Oct 17 16:44:40 10.71.57.0 u94351524 [10.71.57.0|get|0|275790|0|0|0|2f696d616765732f656e7472616e7465732f63616d656d626572742e6a7067|]
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/flags/es.png" flags READ mode 0666
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/flags/en.png" flags READ mode 0666
+Oct 17 16:44:41 10.71.57.0 u94351524 close "/images/flags/es.png" bytes read 202 written 0
+Oct 17 16:44:41 10.71.57.0 u94351524 [10.71.57.0|get|0|202|0|0|0|2f696d616765732f666c6167732f65732e706e67|]
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/flags/de.png" flags READ mode 0666
+Oct 17 16:44:41 10.71.57.0 u94351524 close "/images/flags/en.png" bytes read 987 written 0
+Oct 17 16:44:41 10.71.57.0 u94351524 [10.71.57.0|get|0|987|0|0|0|2f696d616765732f666c6167732f656e2e706e67|]
+Oct 17 16:44:41 10.71.57.0 u94351524 close "/images/flags/de.png" bytes read 483 written 0
+Oct 17 16:44:41 10.71.57.0 u94351524 [10.71.57.0|get|0|483|0|0|0|2f696d616765732f666c6167732f64652e706e67|]
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/hamburguesas/trufa.jpg" flags READ mode 0666
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/hamburguesas/mammamia.jpg" flags READ mode 0666
+Oct 17 16:44:41 10.71.57.0 u94351524 close "/images/hamburguesas/trufa.jpg" bytes read 223829 written 0
+Oct 17 16:44:41 10.71.57.0 u94351524 [10.71.57.0|get|0|223829|0|0|0|2f696d616765732f68616d6275726775657361732f74727566612e6a7067|]
+Oct 17 16:44:41 10.71.57.0 u94351524 close "/images/hamburguesas/mammamia.jpg" bytes read 208839 written 0
+Oct 17 16:44:41 10.71.57.0 u94351524 [10.71.57.0|get|0|208839|0|0|0|2f696d616765732f68616d6275726775657361732f6d616d6d616d69612e6a7067|]
+Oct 17 16:44:41 10.71.57.0 u94351524 open "/images/hamburguesas/kungfoie.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 open "/images/hamburguesas/japo.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/kungfoie.jpg" bytes read 217277 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|1|217277|0|0|0|2f696d616765732f68616d6275726775657361732f6b756e67666f69652e6a7067|]
+Oct 17 16:44:42 10.71.57.0 u94351524 open "/images/hamburguesas/imbatible.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/japo.jpg" bytes read 202210 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|0|202210|0|0|0|2f696d616765732f68616d6275726775657361732f6a61706f2e6a7067|]
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/imbatible.jpg" bytes read 230530 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|0|230530|0|0|0|2f696d616765732f68616d6275726775657361732f696d62617469626c652e6a7067|]
+Oct 17 16:44:42 10.71.57.0 u94351524 open "/images/hamburguesas/clasica.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 open "/images/hamburguesas/chida.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/clasica.jpg" bytes read 237654 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|0|237654|0|0|0|2f696d616765732f68616d6275726775657361732f636c61736963612e6a7067|]
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/chida.jpg" bytes read 210956 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|0|210956|0|0|0|2f696d616765732f68616d6275726775657361732f63686964612e6a7067|]
+Oct 17 16:44:42 10.71.57.0 u94351524 open "/images/hamburguesas/chef.jpg" flags READ mode 0666
+Oct 17 16:44:42 10.71.57.0 u94351524 close "/images/hamburguesas/chef.jpg" bytes read 260875 written 0
+Oct 17 16:44:42 10.71.57.0 u94351524 [10.71.57.0|get|0|260875|0|0|0|2f696d616765732f68616d6275726775657361732f636865662e6a7067|]
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/hamburguesas/burguesa.jpg" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/hamburguesas/cabracadabra.jpg" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/hamburguesas/burguesa.jpg" bytes read 214246 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/hamburguesas/cabracadabra.jpg" bytes read 212246 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|212246|0|0|0|2f696d616765732f68616d6275726775657361732f6361627261636164616272612e6a7067|]
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|214246|0|0|0|2f696d616765732f68616d6275726775657361732f62757267756573612e6a7067|]
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/hamburguesas/blt.jpg" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/hamburguesas/amarilla.jpg" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/hamburguesas/amarilla.jpg" bytes read 214519 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|214519|0|0|0|2f696d616765732f68616d6275726775657361732f616d6172696c6c612e6a7067|]
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/hamburguesas/blt.jpg" bytes read 226195 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|226195|0|0|0|2f696d616765732f68616d6275726775657361732f626c742e6a7067|]
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/home/Desayunos.png" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 open "/images/home/Cenas.png" flags READ mode 0666
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/home/Desayunos.png" bytes read 5140 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|5140|0|0|0|2f696d616765732f686f6d652f4465736179756e6f732e706e67|]
+Oct 17 16:44:43 10.71.57.0 u94351524 close "/images/home/Cenas.png" bytes read 2967 written 0
+Oct 17 16:44:43 10.71.57.0 u94351524 [10.71.57.0|get|0|2967|0|0|0|2f696d616765732f686f6d652f43656e61732e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/home/Almuerzos.png" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/home/Almuerzos.png" bytes read 3577 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|3577|0|0|0|2f696d616765732f686f6d652f416c6d7565727a6f732e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/icons/InstagramOver.png" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/icons/InstagramOver.png" bytes read 13498 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|13498|0|0|0|2f696d616765732f69636f6e732f496e7374616772616d4f7665722e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/icons/Instagram.png" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/icons/FacebookOver.png" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/icons/Instagram.png" bytes read 12899 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|12899|0|0|0|2f696d616765732f69636f6e732f496e7374616772616d2e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/icons/FacebookOver.png" bytes read 8297 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|8297|0|0|0|2f696d616765732f69636f6e732f46616365626f6f6b4f7665722e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/icons/Facebook.png" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/icons/Facebook.png" bytes read 8356 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|8356|0|0|0|2f696d616765732f69636f6e732f46616365626f6f6b2e706e67|]
+Oct 17 16:44:44 10.71.57.0 u94351524 open "/images/postres/tatinmanzana.jpg" flags READ mode 0666
+Oct 17 16:44:44 10.71.57.0 u94351524 close "/images/postres/tatinmanzana.jpg" bytes read 176819 written 0
+Oct 17 16:44:44 10.71.57.0 u94351524 [10.71.57.0|get|0|176819|0|0|0|2f696d616765732f706f73747265732f746174696e6d616e7a616e612e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/images/postres/tartatoblerone.jpg" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/images/postres/tartaqueso.jpg" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/images/postres/tartatoblerone.jpg" bytes read 208506 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|208506|0|0|0|2f696d616765732f706f73747265732f7461727461746f626c65726f6e652e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/images/postres/tartaqueso.jpg" bytes read 217486 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|217486|0|0|0|2f696d616765732f706f73747265732f7461727461717565736f2e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/images/postres/tartaoreo.jpg" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/images/postres/panelote.jpg" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/images/postres/tartaoreo.jpg" bytes read 218360 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|218360|0|0|0|2f696d616765732f706f73747265732f74617274616f72656f2e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/images/postres/panelote.jpg" bytes read 189231 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|189231|0|0|0|2f696d616765732f706f73747265732f70616e656c6f74652e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/images/postres/brownie.jpg" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 open "/js/touchTouch.jquery.js" flags READ mode 0666
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/images/postres/brownie.jpg" bytes read 218248 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|218248|0|0|0|2f696d616765732f706f73747265732f62726f776e69652e6a7067|]
+Oct 17 16:44:45 10.71.57.0 u94351524 close "/js/touchTouch.jquery.js" bytes read 6072 written 0
+Oct 17 16:44:45 10.71.57.0 u94351524 [10.71.57.0|get|0|6072|0|0|0|2f6a732f746f756368546f7563682e6a71756572792e6a73|]
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/tmStickUp.js" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/tmStickUp.js" bytes read 1829 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|1829|0|0|0|2f6a732f746d537469636b55702e6a73|]
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/TMForm.js" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/superfish.js" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/TMForm.js" bytes read 45502 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|45502|0|0|0|2f6a732f544d466f726d2e6a73|]
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/superfish.js" bytes read 6975 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|6975|0|0|0|2f6a732f7375706572666973682e6a73|]
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/script.js" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/PIE.php" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/script.js" bytes read 2191 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|2191|0|0|0|2f6a732f7363726970742e6a73|]
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/PIE.php" bytes read 613 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|613|0|0|0|2f6a732f5049452e706870|]
+Oct 17 16:44:46 10.71.57.0 u94351524 open "/js/PIE.htc" flags READ mode 0666
+Oct 17 16:44:46 10.71.57.0 u94351524 close "/js/PIE.htc" bytes read 40673 written 0
+Oct 17 16:44:46 10.71.57.0 u94351524 [10.71.57.0|get|0|40673|0|0|0|2f6a732f5049452e687463|]
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery.ui.totop.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/modal.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery.ui.totop.js" bytes read 2361 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|2361|0|0|0|2f6a732f6a71756572792e75692e746f746f702e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/modal.js" bytes read 7598 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|7598|0|0|0|2f6a732f6d6f64616c2e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery.mobilemenu.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery.mobilemenu.js" bytes read 2035 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|2035|0|0|0|2f6a732f6a71756572792e6d6f62696c656d656e752e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery.js" bytes read 93063 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|93063|0|0|0|2f6a732f6a71756572792e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery.equalheights.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery.easing.1.3.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery.equalheights.js" bytes read 1232 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|1232|0|0|0|2f6a732f6a71756572792e657175616c686569676874732e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery.easing.1.3.js" bytes read 8097 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|8097|0|0|0|2f6a732f6a71756572792e656173696e672e312e332e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/jquery-migrate-1.1.1.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 open "/js/html5shiv.js" flags READ mode 0666
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/jquery-migrate-1.1.1.js" bytes read 17140 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|17140|0|0|0|2f6a732f6a71756572792d6d6967726174652d312e312e312e6a73|]
+Oct 17 16:44:47 10.71.57.0 u94351524 close "/js/html5shiv.js" bytes read 2376 written 0
+Oct 17 16:44:47 10.71.57.0 u94351524 [10.71.57.0|get|0|2376|0|0|0|2f6a732f68746d6c35736869762e6a73|]
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/lang/lang.es.php" flags READ mode 0666
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/lang/lang.en.php" flags READ mode 0666
+Oct 17 16:44:48 10.71.57.0 u94351524 close "/lang/lang.es.php" bytes read 7289 written 0
+Oct 17 16:44:48 10.71.57.0 u94351524 [10.71.57.0|get|0|7289|0|0|0|2f6c616e672f6c616e672e65732e706870|]
+Oct 17 16:44:48 10.71.57.0 u94351524 close "/lang/lang.en.php" bytes read 6746 written 0
+Oct 17 16:44:48 10.71.57.0 u94351524 [10.71.57.0|get|0|6746|0|0|0|2f6c616e672f6c616e672e656e2e706870|]
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/logs/access.log.35.gz" flags READ mode 0666
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/logs/access.log.42.3.gz" flags READ mode 0666
+Oct 17 16:44:48 10.71.57.0 u94351524 close "/logs/access.log.35.gz" bytes read 46364 written 0
+Oct 17 16:44:48 10.71.57.0 u94351524 [10.71.57.0|get|0|46364|0|0|0|2f6c6f67732f6163636573732e6c6f672e33352e677a|]
+Oct 17 16:44:48 10.71.57.0 u94351524 close "/logs/access.log.42.3.gz" bytes read 5832 written 0
+Oct 17 16:44:48 10.71.57.0 u94351524 [10.71.57.0|get|0|5832|0|0|0|2f6c6f67732f6163636573732e6c6f672e34322e332e677a|]
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/logs/access.log.42.4" flags READ mode 0666
+Oct 17 16:44:48 10.71.57.0 u94351524 open "/logs/sftp.log" flags READ mode 0666
