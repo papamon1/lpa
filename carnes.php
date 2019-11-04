@@ -26,7 +26,7 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="grid_4">
+      <!-- <div class="grid_4">
         <div class="gall_block">
           <div style="height: 400px;">
             <a href="images/carnes/picanha.jpg" class="gall_item"><img src="images/carnes/picanha.jpg" alt="Picanha"></a>
@@ -36,7 +36,7 @@ include_once 'common.php';
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="grid_4">
         <div class="gall_block">
           <div style="height: 400px;">
@@ -48,7 +48,6 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-    <div class="clear sep__1"></div>
       <div class="grid_4">
         <div class="gall_block">
           <div style="height: 400px;">
@@ -60,6 +59,7 @@ include_once 'common.php';
           </div>
         </div>
       </div>
+    <div class="clear sep__1"></div>      
       <div class="grid_4">
         <div class="gall_block">
           <div style="height: 400px;">

@@ -95,8 +95,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .close {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .close:hover,
